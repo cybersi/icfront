@@ -30,7 +30,7 @@ storage and bandwidth, sufficient for loading the custom service worker.
 * firebase login
 
 ## Prepare front end javascript code to talk directly to the Internet Computer blockchain
-* use `createActor(canisterId, { agentOptions: { host: "https://ic0.app" }` in your front end to hardcode the production backennd when creating agents
+* use `createActor(canisterId, { agentOptions: { host: "https://ic0.app" }})` in your front end to hardcode the production backennd when creating agents
 
 ## Setup the service worker
 * in service-worker/src/sw/http\_request.ts replace YOUR\_DOMAIN with your domain and YOUR\_CANISTER_ID with your canister id
