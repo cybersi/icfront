@@ -10,7 +10,7 @@ setup:
         (cd service-worker; npm install)
         npm install -g firebase-tools
         firebase login
-        @echo "Update CANSTER_ID and MY_DOMAIN in ./service-worker/src/sw/http_request.ts"
+        @echo "Edit CANSTER_ID and MY_DOMAIN in ./service-worker/src/sw/http_request.ts"
         @read -p "Text Editor [nano]:" EDITOR; \
         $${EDITOR:-nano} service-worker/src/sw/http_request.ts
         mkdir public
