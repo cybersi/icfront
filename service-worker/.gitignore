@@ -1,6 +1,0 @@
-dist/
-dist-dev/
-dist-prod/
-node_modules/
-coverage/
-junit.xml
